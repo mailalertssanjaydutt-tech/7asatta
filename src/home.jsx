@@ -25,7 +25,6 @@ const Home = () => {
         const res = await api.get("/games");
         if (cancelled) return;
         setGames(res.data);
-        console.log("Fetched games:", res.data);
         if (res.data.length > 0) setSelectedGame(res.data[0].name);
       } catch (err) {
         console.error("Failed to fetch games:", err);
@@ -56,25 +55,19 @@ const UpcomingResults = () => {
   const controllerRef = useRef(null);
   const intervalRef = useRef(null);
 
-  // Build 3-card layout
+  // Always prioritize UPCOMING → then RECENT
   const formatCards = (recent, upcoming) => {
     const final = [];
 
-    if (recent.length >= 2) {
-      // 2 recent + 1 upcoming
-      final.push(recent[0], recent[1]);
-      if (upcoming.length > 0) final.push(upcoming[0]);
+    // 1️⃣ Always push all available upcoming first
+    final.push(...upcoming);
 
-    } else if (recent.length === 1) {
-      // 1 recent + 2 upcoming
-      final.push(recent[0]);
-      final.push(...upcoming.slice(0, 2));
-
-    } else {
-      // No recent → all upcoming
-      final.push(...upcoming.slice(0, 3));
+    // 2️⃣ If less than 3, fill with recent
+    if (final.length < 3) {
+      final.push(...recent.slice(0, 3 - final.length));
     }
 
+    // 3️⃣ If still less than 3, fill placeholders
     while (final.length < 3) {
       final.push({
         name: "--",
@@ -98,16 +91,13 @@ const UpcomingResults = () => {
 
       if (!mountedRef.current) return;
 
-      // Take correct fields from backend
       const rawRecent = r.data.recentGames || [];
       const rawUpcoming = r.data.upcomingGames || [];
 
-      // Map frontend fields
       const recent = rawRecent.map(item => ({
         name: item.name,
         resultTime: item.resultTime,
         latestResult: item.latestResult,
-        minutesUntil: 0,
         loading: false
       }));
 
@@ -115,18 +105,17 @@ const UpcomingResults = () => {
         name: item.name,
         resultTime: item.resultTime,
         latestResult: item.latestResult,
-        minutesUntil: item.minutesUntil || null,
         loading: false
       }));
 
-      const finalCards = formatCards( upcoming,recent);
-
+      const finalCards = formatCards(recent, upcoming);
       setCards(finalCards);
 
     } catch (err) {
       if (err.name !== "AbortError") {
-        console.error("Fetch upcoming failed:", err);
+          return
       }
+      console.error("Fetch upcoming failed:", err);
     }
   };
 
@@ -143,40 +132,35 @@ const UpcomingResults = () => {
     };
   }, []);
 
-  const Card = ({ card }) => {
-    return (
-      <section className="circlebox2">
-        <div>
-          <div className="sattaname">
-            <p style={{ margin: 0 }}>{card.name}</p>
-          </div>
-
-          <div className="sattaresult">
-            <p style={{ margin: 0, padding: 0 }}>
-              <span style={{ letterSpacing: 4 }}>
-                {card.loading
-                  ? "--"
-                  : card.latestResult == null
-                    ? <img src="images/d.gif" width={50} height={50} />
-                    : card.latestResult}
-              </span>
-            </p>
-
-            <p style={{ margin: 0, fontSize: 14, marginTop: 5 }}>
-              <small style={{ color: "white" }}>{card.resultTime}</small>
-            </p>
-          </div>
+  const Card = ({ card }) => (
+    <section className="circlebox2">
+      <div>
+        <div className="sattaname">
+          <p style={{ margin: 0 }}>{card.name}</p>
         </div>
-      </section>
-    );
-  };
 
-  return (
-    <div>
-      {cards.map((c, i) => <Card key={i} card={c} />)}
-    </div>
+        <div className="sattaresult">
+          <p style={{ margin: 0, padding: 0 }}>
+            <span style={{ letterSpacing: 4 }}>
+              {card.loading
+                ? "--"
+                : card.latestResult == null
+                  ? <img src="images/d.gif" width={50} height={50} />
+                  : card.latestResult}
+            </span>
+          </p>
+
+          <p style={{ margin: 0, fontSize: 14, marginTop: 5 }}>
+            <small style={{ color: "white" }}>{card.resultTime}</small>
+          </p>
+        </div>
+      </div>
+    </section>
   );
+
+  return <div>{cards.map((c, i) => <Card key={i} card={c} />)}</div>;
 };
+
 
 
 
