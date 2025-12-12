@@ -25,6 +25,7 @@ const Home = () => {
         const res = await api.get("/games");
         if (cancelled) return;
         setGames(res.data);
+        console.log("Fetched games:", res.data);
         if (res.data.length > 0) setSelectedGame(res.data[0].name);
       } catch (err) {
         console.error("Failed to fetch games:", err);
@@ -44,126 +45,96 @@ const Home = () => {
     navigate(`/${gameSlug}?year=${selectedYear}`);
   };
 
-const UpcomingResults = () => {
-  const [cards, setCards] = useState([
-    { loading: true },
-    { loading: true },
-    { loading: true }
-  ]);
-
+const UpcomingResults = ({ loadingInitial }) => {
+  const [cards, setCards] = useState(
+    new Array(3).fill(null).map(() => ({ name: "", resultTime: "--", latestResult: null, minutesUntil: null, loading: true }))
+  );
   const mountedRef = useRef(false);
-  const controllerRef = useRef(null);
   const intervalRef = useRef(null);
-
-  // Always prioritize UPCOMING → then RECENT
-  const formatCards = (recent, upcoming) => {
-    const final = [];
-
-    // 1️⃣ Always push all available upcoming first
-    final.push(...upcoming);
-
-    // 2️⃣ If less than 3, fill with recent
-    if (final.length < 3) {
-      final.push(...recent.slice(0, 3 - final.length));
-    }
-
-    // 3️⃣ If still less than 3, fill placeholders
-    while (final.length < 3) {
-      final.push({
-        name: "--",
-        resultTime: "--",
-        latestResult: null,
-        loading: false
-      });
-    }
-
-    return final.slice(0, 3);
-  };
+  const controllerRef = useRef(null);
 
   const fetchOnce = async () => {
     try {
       if (controllerRef.current) controllerRef.current.abort();
       controllerRef.current = new AbortController();
-
-      const r = await api.get("/upcoming", {
-        signal: controllerRef.current.signal
-      });
-
+      const r = await api.get("/upcoming?limit=5", { signal: controllerRef.current.signal });
+      const data = r.data;
       if (!mountedRef.current) return;
 
-      const rawRecent = r.data.recentGames || [];
-      const rawUpcoming = r.data.upcomingGames || [];
-
-      const recent = rawRecent.map(item => ({
-        name: item.name,
-        resultTime: item.resultTime,
-        latestResult: item.latestResult,
-        loading: false
-      }));
-
-      const upcoming = rawUpcoming.map(item => ({
-        name: item.name,
-        resultTime: item.resultTime,
-        latestResult: item.latestResult,
-        loading: false
-      }));
-
-      const finalCards = formatCards(recent, upcoming);
-      setCards(finalCards);
-
-    } catch (err) {
-      if (err.name !== "AbortError") {
-          return
+      if (Array.isArray(data.cards)) {
+        const mapped = data.cards.map(c => ({
+          name: c.name || "—",
+          resultTime: c.resultTime || "--",
+          latestResult: c.latestResult ?? null,
+          minutesUntil: c.minutesUntil ?? null,
+          loading: false
+        }));
+        // ensure exactly 3
+        while (mapped.length < 3) mapped.push({ name: "--", resultTime: "--", latestResult: null, minutesUntil: null, loading: false });
+        setCards(mapped.slice(0,3));
+      } else {
+        // fallback: clear
+        setCards(new Array(3).fill(null).map(() => ({ name: "--", resultTime: "--", latestResult: null, minutesUntil: null, loading: false })));
       }
-      console.error("Fetch upcoming failed:", err);
+    } catch (err) {
+      if (err.name === "CanceledError" || err.name === "AbortError") {
+        // aborted; ignore
+      } else {
+        console.warn("Upcoming fetch failed", err);
+        // keep prior state or show fallback
+      }
     }
   };
 
   useEffect(() => {
     mountedRef.current = true;
     fetchOnce();
-
     intervalRef.current = setInterval(fetchOnce, 30000);
-
     return () => {
       mountedRef.current = false;
-      if (controllerRef.current) controllerRef.current.abort();
       if (intervalRef.current) clearInterval(intervalRef.current);
+      if (controllerRef.current) controllerRef.current.abort();
     };
-  }, []);
+  }, []); // no dependency on games; server makes decisions
 
-  const Card = ({ card }) => (
-    <section className="circlebox2">
-      <div>
-        <div className="sattaname">
-          <p style={{ margin: 0 }}>{card.name}</p>
+  // Card component same as before
+  const Card = ({ card }) => {
+    const showWaiting = !card.latestResult;
+    return (
+      <section className="circlebox2">
+        <div>
+          <div className="sattaname"><p style={{ margin: 0 }}>{card.name}</p></div>
+          <div className="sattaresult">
+            <p style={{ margin: 0, padding: 0 }}>
+              <span style={{ letterSpacing: 4 }}>
+                {card.loading ? (
+                  "--"
+                ) : showWaiting ? (
+                  <img src="images/d.gif" alt="wait icon" height={50} width={50} />
+                ) : (
+                  card.latestResult
+                )}
+              </span>
+            </p>
+            <p style={{ margin: 0, fontSize: 14, marginTop: 5, fontWeight: "bold" }}>
+              <small style={{ color: "white" }}>
+                {card.resultTime}
+              </small>
+            </p>
+          </div>
         </div>
+      </section>
+    );
+  };
 
-        <div className="sattaresult">
-          <p style={{ margin: 0, padding: 0 }}>
-            <span style={{ letterSpacing: 4 }}>
-              {card.loading
-                ? "--"
-                : card.latestResult == null
-                  ? <img src="images/d.gif" width={50} height={50} />
-                  : card.latestResult}
-            </span>
-          </p>
-
-          <p style={{ margin: 0, fontSize: 14, marginTop: 5 }}>
-            <small style={{ color: "white" }}>{card.resultTime}</small>
-          </p>
-        </div>
-      </div>
-    </section>
+  return (
+    <div>
+      <Card card={cards[0]} />
+      <Card card={cards[1]} />
+      <Card card={cards[2]} />
+    </div>
   );
-
-  return <div>{cards.map((c, i) => <Card key={i} card={c} />)}</div>;
 };
-
-
-
-
 
 
 
@@ -180,9 +151,9 @@ const UpcomingResults = () => {
                 <div id="clockbox">
                   <Clock />
                 </div>
-                <p className="hintext" style={{ padding: 0 }}>
+                {/* <p className="hintext" style={{ padding: 0 }}>
                   हा भाई यही आती हे सबसे पहले खबर रूको और देखो
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -343,17 +314,19 @@ const UpcomingResults = () => {
             <div className="col-left">
               <div className="text-left2">
                 <h1>
-                  7A Satta — Trusted Satta King Results, Charts & Market Guides
+                  The Ultimate Guide to Satta King: Gambling Culture Nurtured In
+                  India and Its Impact on Society
                 </h1>
               </div>
             </div>
             <div className="col-right">
               <div className="content">
                 <p>
-                  Welcome to 7A Satta — your dependable source for verified
-                  Satta King results, historical charts and market timings. We
-                  provide clear result updates, trend analysis and responsible
-                  play guidance so users can research markets with confidence.
+                  Welcome to 7A Satta, the most informative sike about SATTA
+                  KING. In this guide, you will find a complete overview of the
+                  Satta King game, its history, gameplay style, leading markets
+                  and what players need to know in order to play it safely and
+                  responsibly.
                 </p>
                 <h2>What is Satta King?</h2>
                 <p>
