@@ -36,10 +36,13 @@ const Header = () => {
             </div>
             <div className="text_slide">
             <marquee style={{ color: "#fff" }}>
-                <p style={{ fontSize: 16, textAlign: "center" }}>
+                {/* <p style={{ fontSize: 16, textAlign: "center" }}>
                 7A satta is an information portal which keep satta king player
                 updated by providing real-time satta king results for gali satta ,
                 faridabad satta and ghaziabad satta.
+                </p> */}
+                 <p className="hintext" style={{ padding: 0 }}>
+                  हा भाई यही आती हे सबसे पहले खबर रूको और देखो
                 </p>
             </marquee>
             </div>
