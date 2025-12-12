@@ -181,11 +181,9 @@ const UpcomingResults = ({ loadingInitial }) => {
 
   return (
     <div>
-      <h3 style={{ color: "white", margin: "10px 0" }}>Upcoming</h3>
-
-      <Card card={cards[0]} />
-      <Card card={cards[1]} />
       <Card card={cards[2]} />
+      <Card card={cards[1]} />
+      <Card card={cards[0]} />
     </div>
   );
 };
