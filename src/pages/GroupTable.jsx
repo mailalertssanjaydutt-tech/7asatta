@@ -76,7 +76,8 @@ export default function GroupTable({ groupName }) {
                         className="col-md-4 text-center"
                         style={{
                           width: "37%",
-                          background: "rgb(0, 0, 0)",
+                          {/*background: "rgb(0, 0, 0)"*/},
+						  background: '#424242',
                           color: "rgb(255, 255, 255)",
                         }}
                       >
@@ -85,8 +86,9 @@ export default function GroupTable({ groupName }) {
                       <th
                         className="col-md-4 text-center"
                         style={{
-                          background: "rgb(0, 0, 0)",
-                          color: "rgb(255, 255, 255)",
+                          {/*background: "rgb(0, 0, 0)"*/},
+						  background: '#424242',
+                          color: "rgb(255, 255, 255)",                          
                         }}
                       >
                         कल आया था
@@ -94,17 +96,27 @@ export default function GroupTable({ groupName }) {
                       <th
                         className="col-md-4 text-center"
                         style={{
-                          background: "rgb(0, 0, 0)",
+                          {/*background: "rgb(0, 0, 0)"*/},
+						  background: '#424242',
                           color: "rgb(255, 255, 255)",
                         }}
                       >
                         आज का रिज़ल्ट
                       </th>
                     </tr>
+					
+					
                   </thead>
+				
+                   				
 
                   {group.games.map((game, idx) => (
                     <tbody key={idx}>
+						<tr>
+							<td colspan="3" class="stagetd">
+								<div class="stageat"><p>Live</p></div>
+							</td>
+						</tr>
                       <tr>
                         <td className="foryellow">
                           <Link
@@ -116,7 +128,7 @@ export default function GroupTable({ groupName }) {
                             {game.name}
                           </Link>
                           <br />
-                          {game.resultTime12h}
+                          <div class="time-btm d-flex"><small>at</small> {game.resultTime12h} <span><Link className="lkn" to={"#"}></span></div>
                           <br />
                         </td>
                         <td className="yesterday-number">
