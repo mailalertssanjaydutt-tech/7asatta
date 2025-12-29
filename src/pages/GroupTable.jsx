@@ -128,7 +128,7 @@ export default function GroupTable({ groupName }) {
                             {game.name}
                           </Link>
                           <br />
-                          <div class="time-btm d-flex"><small>at</small> {game.resultTime12h} <span><Link className="lkn" to="#"></span></div>
+                          <div class="time-btm d-flex"><small>at</small> {game.resultTime12h} <span><Link className="lkn" to="#">Record Chart</Link></span></div>
                           <br />
                         </td>
                         <td className="yesterday-number">
