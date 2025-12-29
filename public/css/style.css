@@ -2495,6 +2495,15 @@ section.tablebox1-newth .table-bordered>:not(caption)>* {
     border-width: var(--bs-border-width);
 }
 
+section.tablebox1-newth table.table tbody:nth-child(6n) td, 
+section.tablebox1-newth table.table tbody:nth-child(7n) td, 
+section.tablebox1-newth table.table tbody:nth-child(8n) td, 
+section.tablebox1-newth table.table tbody:nth-child(9n) td, 
+section.tablebox1-newth table.table tbody:nth-child(10n) td,
+section.tablebox1-newth table.table tbody:nth-child(11n) td {
+    background: #FFC107;
+}
+
 @media (max-width:650px) {
 	section.game-detail {
     padding: 0;
