@@ -1467,7 +1467,7 @@ a {
     letter-spacing: .5px;
     padding: 12px 30px;
     text-align: center;
-    text-transform: uppercase
+    text-transform: uppercase;
 	background-image: linear-gradient(90deg, #dbcf2c, #21da25, #dbcf2c);
 	transition: .3s ease;
 }
