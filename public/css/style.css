@@ -1612,7 +1612,8 @@ a {
 
 .tablebox1 .table .foryellow {
     background: #FFC107;
-    color: #000
+    color: #000;
+	background-image: linear-gradient(90deg, rgba(219, 207, 44, 1) 11%, rgba(33, 218, 37, 1) 50%, rgba(219, 207, 44, 1) 88%);
 }
 
 .tablebox1 .table-bordered>tbody>tr>td,.tablebox1 .table-bordered>tbody>tr>th,.tablebox1 .table-bordered>thead>tr>td,.tablebox1 .table-bordered>thead>tr>th {
@@ -1749,7 +1750,8 @@ a {
 
 .somelinks2 {
     background: #FFC107;
-    padding: 10px 0
+    padding: 10px 0;
+	background-image: linear-gradient(90deg, rgba(219, 207, 44, 1) 11%, rgba(33, 218, 37, 1) 50%, rgba(219, 207, 44, 1) 88%);
 }
 
 .somelinks2 strong {
@@ -1983,7 +1985,7 @@ section.faq-section span.sr {
 }
 
 .newtable td.forfirtcolor {
-    background: #FFC107  !important;
+    background: #dbcf2c  !important;
 }
 
 section.newtable {
@@ -2248,6 +2250,7 @@ section.game-detail .header_btn span {
     cursor: pointer;
     
     font-weight: 700;
+	background-image: linear-gradient(90deg, rgba(219, 207, 44, 1) 11%, rgba(33, 218, 37, 1) 50%, rgba(219, 207, 44, 1) 88%);
 }
 .header_btn:hover{
     padding-right: 20px;
