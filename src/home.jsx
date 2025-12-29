@@ -208,7 +208,7 @@ const UpcomingResults = ({ loadingInitial }) => {
                   <Clock />
                 </div>
                 <p className="hintext" style={{ padding: 0 }}>
-                  हा भाई यही आती हे सबसे पहले खबर रूको और देखो
+                  हा भाई यही आती हे सबसे पहले खबर रूको और देखो देखो 
                 </p>
               </div>
             </div>
