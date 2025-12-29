@@ -2409,6 +2409,87 @@ a.header_btn.blck {
     border-left: 0;
 }
 
+section.tablebox1-newth {}
+
+section.tablebox1-newth th.col-md-4 {
+    padding: 10px 15px;
+    font-size: 18px;
+    /* font-weight: normal; */
+}
+
+section.tablebox1-newth .stageat p {
+    margin: 0;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: bold;
+    color: #ff4545;
+}
+
+section.tablebox1-newth td.stagetd {
+    background: #f9f9f9;
+    position: relative;
+    padding: 12px 10px 12px 25px;
+    border: 0 !important;
+}
+
+section.tablebox1-newth td.stagetd:before {
+    position: absolute;
+    left: 0;
+    width: 8px;
+    height: 100%;
+    background: #ff4545;
+    content: "";
+    top: 0;
+}
+
+section.tablebox1-newth .table td.foryellow {
+    text-align: left;
+    background: #fff;
+    border: 0;
+}
+
+section.tablebox1-newth .table td.foryellow a.gamenameeach {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+section.tablebox1-newth .table td.foryellow  small {
+    font-size: 13px;
+    line-height: 22px;
+    padding-right: 4px;
+    font-weight: 500;
+}
+
+section.tablebox1-newth .table td.foryellow .time-btm {
+    align-items: end;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+section.tablebox1-newth .table td.foryellow a.lkn {
+    margin-left: 7px;
+    color: #000;
+    text-decoration: none;
+    color: blue;
+    font-size: 13px;
+}
+
+section.tablebox1-newth td.yesterday-number {}
+
+section.tablebox1-newth td.yesterday-number .special-bold {
+    text-align: right;
+    height: auto;
+}
+
+section.tablebox1-newth td.today-number {
+    text-align: right;
+}
+
+section.tablebox1-newth td.today-number, section.tablebox1-newth  td.yesterday-number {
+    border: 0 !important;
+}
+
 @media (max-width:650px) {
 	section.game-detail {
     padding: 0;
