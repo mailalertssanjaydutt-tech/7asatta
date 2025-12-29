@@ -2490,6 +2490,10 @@ section.tablebox1-newth td.today-number, section.tablebox1-newth  td.yesterday-n
     border: 0 !important;
 }
 
+section.tablebox1-newth .table-bordered>:not(caption)>* {
+    border-width: var(--bs-border-width);
+}
+
 @media (max-width:650px) {
 	section.game-detail {
     padding: 0;
