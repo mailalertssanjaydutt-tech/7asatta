@@ -105,18 +105,18 @@ export default function GroupTable({ groupName }) {
                       </th>
                     </tr>
 					
-					
+					<tr>
+							<td colspan="3" class="stagetd">
+								<div class="stageat"><p>Live</p></div>
+							</td>
+						</tr>
                   </thead>
 				
                    				
 
                   {group.games.map((game, idx) => (
                     <tbody key={idx}>
-						<tr>
-							<td colspan="3" class="stagetd">
-								<div class="stageat"><p>Live</p></div>
-							</td>
-						</tr>
+						
                       <tr>
                         <td className="foryellow">
                           <Link
@@ -128,7 +128,7 @@ export default function GroupTable({ groupName }) {
                             {game.name}
                           </Link>
                           <br />
-                          <div class="time-btm d-flex"><small>at</small> {game.resultTime12h} <span><Link className="lkn" to={"#"}></span></div>
+                          <div class="time-btm d-flex"><small>at</small> {game.resultTime12h} <span><Link className="lkn" to="#"></span></div>
                           <br />
                         </td>
                         <td className="yesterday-number">
