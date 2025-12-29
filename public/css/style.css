@@ -1460,7 +1460,7 @@ a {
     background: #FFC107;
     border: 1px solid #000;
     border-radius: 30px;
-    box-shadow: 2px 2px hsla(0,0%,100%,.9);
+    box-shadow: 0px 0px hsla(0,0%,100%,.9);
     display: block;
     font-size: 14px;
     font-weight: 700;
@@ -1468,6 +1468,8 @@ a {
     padding: 12px 30px;
     text-align: center;
     text-transform: uppercase
+	background-image: linear-gradient(90deg, #dbcf2c, #21da25, #dbcf2c);
+	transition: .3s ease;
 }
 
 .newnav ul li a,.newnav ul li a:hover {
@@ -1477,8 +1479,8 @@ a {
 }
 
 .newnav ul li a:hover {
-    background: #fff;
-    box-shadow: 2px 2px rgba(255,216,100,.9)
+    background: #FFC107;
+    box-shadow: 0px 0px rgba(255,216,100,.9)
 }
 
 .sattalogo {
