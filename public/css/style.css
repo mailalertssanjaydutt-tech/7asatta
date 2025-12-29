@@ -2414,6 +2414,7 @@ section.tablebox1-newth {}
 section.tablebox1-newth th.col-md-4 {
     padding: 10px 15px;
     font-size: 18px;
+	border: 0 !important;
     /* font-weight: normal; */
 }
 
