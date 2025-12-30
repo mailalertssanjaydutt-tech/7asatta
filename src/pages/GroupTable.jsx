@@ -63,7 +63,7 @@ export default function GroupTable({ groupName }) {
   }
 
   return (
-    <section className="tablebox1 tablebox1-newth" style={{ margin: "0px 0px 5px" }}>
+    <section className="tablebox1 tablebox1-newth" style={{ margin: "15px 0px 5px" }}>
       <div className="container-fluid">
         <div className="row">
           <article style={{ padding: 0 }}>
