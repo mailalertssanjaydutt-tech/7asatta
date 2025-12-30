@@ -2779,5 +2779,33 @@ div.lucky-number-section .card-body.munda .swiper-wrapper {
 			margin:0;
 		}
 
+	section.tablebox1-newth .table td.foryellow {
+    width: 54%;
+}
+
+section.tablebox1-newth th.col-md-4 {
+    font-size: 15px;
+    padding: 10px 10px;
+    text-align: left !important;
+}
+
+section.tablebox1-newth td.today-number, section.tablebox1-newth td.yesterday-number {
+    text-align: left !important;
+}
+
+section.tablebox1-newth td.yesterday-number .special-bold {
+    text-align: left;
+    font-size: 20px  !important;
+    letter-spacing: 0 !important;
+}
+
+section.tablebox1-newth .table td.foryellow .time-btm {
+    font-size: 14px;
+}
+
+section.tablebox1-newth .table td.foryellow a.gamenameeach {
+    font-size: 16px;
+}
+
 }
 
