@@ -2513,6 +2513,10 @@ section.tablebox1-newth table.table tbody:nth-child(11n) td:hover {
     background: #f9f9f9;
 }
 
+.circlebox .liveresult div#clockbox div#clockbox {
+    margin-bottom: 0;
+}
+
 @media (max-width:650px) {
 	section.game-detail {
     padding: 0;
