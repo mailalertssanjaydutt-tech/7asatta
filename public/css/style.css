@@ -2795,7 +2795,6 @@ section.tablebox1-newth td.today-number, section.tablebox1-newth td.yesterday-nu
 
 section.tablebox1-newth td.yesterday-number .special-bold {
     text-align: left;
-    font-size: 20px  !important;
     letter-spacing: 0 !important;
 }
 
