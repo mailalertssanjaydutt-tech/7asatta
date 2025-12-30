@@ -2798,6 +2798,10 @@ section.tablebox1-newth td.yesterday-number .special-bold {
     letter-spacing: 0 !important;
 }
 
+	section.tablebox1-newth td.yesterday-number .special-bold, section.tablebox1-newth td.today-number> div {
+    font-size: 24px  !important;
+}
+
 section.tablebox1-newth .table td.foryellow .time-btm {
     font-size: 14px;
 }
