@@ -205,7 +205,7 @@ const UpcomingResults = ({ loadingInitial }) => {
             <div className="col-md-12 text-center">
               <div className="liveresult">
                 <div id="clockbox" style={{marginBottom: "0"}}>
-                  <Clock />
+                  <Clock style={{marginBottom: "0"}} />
                 </div>
 				  {/* <p className="hintext" style={{ padding: 0 }}>
                   हा भाई यही आती हे सबसे पहले खबर रूको और देखो
