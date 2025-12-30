@@ -150,7 +150,7 @@ const UpcomingResults = ({ loadingInitial }) => {
 
           <div className="sattaresult">
             <p style={{ margin: 0, padding: 0 }}>
-              <span style={{ letterSpacing: 4 }}>
+              <span style={{ }}>
                 {card.loading ? (
                   "--"
                 ) : showWaiting ? (
