@@ -160,9 +160,9 @@ const UpcomingResults = ({ loadingInitial }) => {
                     height={50}
                     width={50}
                   />
-                ) : "<span>"(
+                ) : (
                   card.latestResult
-                )"</span>"}
+                )}
               
             </p>
 
