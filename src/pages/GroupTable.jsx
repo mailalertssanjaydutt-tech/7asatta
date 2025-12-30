@@ -70,8 +70,8 @@ export default function GroupTable({ groupName }) {
             <div className="col-md-12 nopadding" style={{ marginBottom: 20 }}>
               <div className="table-responsive">
                 <table className="table table-bordered">
-					{/*<thead className="forblack">
-                    <tr>
+					<thead className="forblack">
+                    {/*<tr>
                       <th
                         className="col-md-4 text-center"
                         style={{
@@ -103,14 +103,14 @@ export default function GroupTable({ groupName }) {
                       >
                         आज का रिज़ल्ट
                       </th>
-                    </tr>
+                    </tr>*/}
 					
 					<tr>
 							<td colspan="3" class="stagetd">
 								<div class="stageat"><p>Live</p></div>
 							</td>
 						</tr>
-                  </thead>*/}
+                  </thead>
 				
                    				
 
