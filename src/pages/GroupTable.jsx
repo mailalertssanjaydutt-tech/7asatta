@@ -68,10 +68,10 @@ export default function GroupTable({ groupName }) {
         <div className="row">
           <article style={{ padding: 0 }}>
             <div className="col-md-12 nopadding" style={{ marginBottom: 20 }}>
-				<div className="tbl-top">
+				{/*<div className="tbl-top">
 					<h2>DISAWAR</h2>
 					<div className="cnt"><span>89</span></div>
-				</div>
+				</div>*/}
               <div className="table-responsive">
                 <table className="table table-bordered">
 					<thead className="forblack">
