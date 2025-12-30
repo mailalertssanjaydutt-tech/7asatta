@@ -71,7 +71,7 @@ export default function GroupTable({ groupName }) {
               <div className="table-responsive">
                 <table className="table table-bordered">
 					<thead className="forblack">
-                    {/*<tr>
+                    <tr>
                       <th
                         className="col-md-4 text-center"
                         style={{
@@ -103,7 +103,7 @@ export default function GroupTable({ groupName }) {
                       >
                         आज का रिज़ल्ट
                       </th>
-                    </tr>*/}
+                    </tr>
 					
 					<tr>
 							<td colspan="3" class="stagetd">
