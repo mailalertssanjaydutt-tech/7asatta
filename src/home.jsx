@@ -204,12 +204,12 @@ const UpcomingResults = ({ loadingInitial }) => {
           <div className="row">
             <div className="col-md-12 text-center">
               <div className="liveresult">
-                <div id="clockbox">
+                <div id="clockbox" style={{marginBottom: "0"}}>
                   <Clock />
                 </div>
-                <p className="hintext" style={{ padding: 0 }}>
+				  {/* <p className="hintext" style={{ padding: 0 }}>
                   हा भाई यही आती हे सबसे पहले खबर रूको और देखो
-                </p>
+                </p>*/}
               </div>
             </div>
           </div>
