@@ -143,7 +143,7 @@ const UpcomingResults = ({ loadingInitial }) => {
 
     return (
       <section className="circlebox2">
-        <div>
+        <div className="sattabx">
           <div className="sattaname">
             <p style={{ margin: 0 }}>{card.name}</p>
           </div>
@@ -166,7 +166,7 @@ const UpcomingResults = ({ loadingInitial }) => {
               </span>
             </p>
 
-            <p
+			  {/*<p
               style={{
                 margin: 0,
                 fontSize: 14,
@@ -175,7 +175,7 @@ const UpcomingResults = ({ loadingInitial }) => {
               }}
             >
               <small style={{ color: "white" }}>{card.resultTime}</small>
-            </p>
+            </p>*/}
           </div>
         </div>
       </section>
