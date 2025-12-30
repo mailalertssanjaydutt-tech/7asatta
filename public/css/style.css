@@ -2519,7 +2519,7 @@ section.tablebox1-newth table.table tbody:nth-child(11n) td:hover {
 
 .sattabx {
     text-align: center;
-    background: #ff4545;
+    background: #38d826;
     color: #fff;
     font-size: 26px;
     border-radius: 10px;
@@ -2536,9 +2536,9 @@ section.tablebox1-newth table.table tbody:nth-child(11n) td:hover {
 }
 
 .sattabx .sattaname p {
-    font-size: 40px;
     font-weight: bold;
     text-shadow: 0 2px 4px #000;
+    line-height: 40px;
 }
 
 .sattabx .sattaresult span {
