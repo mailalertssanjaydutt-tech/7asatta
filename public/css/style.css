@@ -2525,6 +2525,14 @@ section.tablebox1-newth table.table tbody:nth-child(11n) td:hover {
     border-radius: 10px;
     margin-bottom: 15px;
     padding: 20px 0;
+	max-width: 90%;
+    margin: auto;
+}
+
+.sattabx  .sattaresult {
+    display: flex;
+    justify-content: center;
+    padding: 6px 0 0;
 }
 
 .sattabx .sattaname p {
