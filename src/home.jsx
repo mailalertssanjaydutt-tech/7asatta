@@ -161,7 +161,7 @@ const UpcomingResults = ({ loadingInitial }) => {
                     width={50}
                   />
                 ) : (
-                  <span style={{ }}>card.latestResult</span>
+                  card.latestResult
                 )}
               
             </p>
