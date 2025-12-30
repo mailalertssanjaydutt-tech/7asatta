@@ -81,7 +81,7 @@ export default function GroupTable({ groupName }) {
                           color: "rgb(255, 255, 255)",
                         }}
                       >
-                        सट्टा का नाम
+                        खेल का नाम
                       </th>
                       <th
                         className="col-md-4 text-center"
@@ -91,7 +91,7 @@ export default function GroupTable({ groupName }) {
                           color: "rgb(255, 255, 255)",                          
                         }}
                       >
-                        कल आया था
+                        कल 
                       </th>
                       <th
                         className="col-md-4 text-center"
@@ -101,7 +101,7 @@ export default function GroupTable({ groupName }) {
                           color: "rgb(255, 255, 255)",
                         }}
                       >
-                        आज का रिज़ल्ट
+                        आज 
                       </th>
                     </tr>
 					
