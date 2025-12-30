@@ -2517,7 +2517,7 @@ section.tablebox1-newth table.table tbody:nth-child(11n) td:hover {
     margin-bottom: 0;
 }
 
-.tbl-top {
+.sattabx {
     text-align: center;
     background: #ff4545;
     color: #fff;
@@ -2527,13 +2527,13 @@ section.tablebox1-newth table.table tbody:nth-child(11n) td:hover {
     padding: 20px 0;
 }
 
-.tbl-top h2 {
+.sattabx .sattaname p {
     font-size: 40px;
     font-weight: bold;
     text-shadow: 0 2px 4px #000;
 }
 
-.tbl-top .cnt span {
+.sattabx .sattaresult span {
     box-shadow: 0 0px 8px 1px #000;
     display: inline-block;
     border-radius: 40px;
