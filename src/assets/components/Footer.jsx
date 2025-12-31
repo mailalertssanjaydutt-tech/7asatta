@@ -53,7 +53,7 @@ const Footer = () => {
 
         {/*<div class="support-icon"><a href="https://wa.me/8572063223"><img src="/images/support-icon1.png" alt="support icon" /></a></div>*/}
 
-        <div className="refButton"><button id="refMyButton" className="btn btn-warning">Refresh</button></div>
+        <div className="refButton"><button id="refMyButton" className="btn btn-warning" onclick="window.location.reload();>Refresh</button></div>
         
 </>
 
