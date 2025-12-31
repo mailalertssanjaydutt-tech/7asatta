@@ -10,7 +10,7 @@ const Header = () => {
         <div className="container-fluid">
         <div className="col-md-16 nopadding">
           <div className="logo">
-          <Link to="/home"> <img src="images/7a-logo.png" alt="logo img" /></Link>
+          <Link to="/home"> <img src="/images/7a-logo.png" alt="logo img" /></Link>
           </div>
           {/*<div className="newnav">
             <ul>
