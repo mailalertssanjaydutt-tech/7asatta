@@ -2498,7 +2498,7 @@ section.tablebox1-newth .table-bordered>:not(caption)>* {
 section.tablebox1-newth table.table tbody:nth-child(6n) tr, section.tablebox1-newth table.table tbody:nth-child(7n) tr, 
 section.tablebox1-newth table.table tbody:nth-child(8n) tr, section.tablebox1-newth table.table tbody:nth-child(9n) tr, 
 section.tablebox1-newth table.table tbody:nth-child(10n) tr, section.tablebox1-newth table.table tbody:nth-child(11n) tr {
-    background: #FFC107;
+    background: #dbcf2c;
 }
 
 section.tablebox1-newth table.table tbody:nth-child(6n) td, section.tablebox1-newth table.table tbody:nth-child(7n) td, 
