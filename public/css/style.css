@@ -2495,21 +2495,21 @@ section.tablebox1-newth .table-bordered>:not(caption)>* {
     border-width: var(--bs-border-width);
 }
 
-section.tablebox1-newth table.table tbody:nth-child(6n) td, 
-section.tablebox1-newth table.table tbody:nth-child(7n) td, 
-section.tablebox1-newth table.table tbody:nth-child(8n) td, 
-section.tablebox1-newth table.table tbody:nth-child(9n) td, 
-section.tablebox1-newth table.table tbody:nth-child(10n) td,
-section.tablebox1-newth table.table tbody:nth-child(11n) td {
+section.tablebox1-newth table.table tbody:nth-child(6n) tr, section.tablebox1-newth table.table tbody:nth-child(7n) tr, 
+section.tablebox1-newth table.table tbody:nth-child(8n) tr, section.tablebox1-newth table.table tbody:nth-child(9n) tr, 
+section.tablebox1-newth table.table tbody:nth-child(10n) tr, section.tablebox1-newth table.table tbody:nth-child(11n) tr {
     background: #FFC107;
 }
 
-section.tablebox1-newth table.table tbody:nth-child(6n) td:hover, 
-section.tablebox1-newth table.table tbody:nth-child(7n) td:hover, 
-section.tablebox1-newth table.table tbody:nth-child(8n) td:hover, 
-section.tablebox1-newth table.table tbody:nth-child(9n) td:hover, 
-section.tablebox1-newth table.table tbody:nth-child(10n) td:hover,
-section.tablebox1-newth table.table tbody:nth-child(11n) td:hover {
+section.tablebox1-newth table.table tbody:nth-child(6n) td, section.tablebox1-newth table.table tbody:nth-child(7n) td, 
+section.tablebox1-newth table.table tbody:nth-child(8n) td, section.tablebox1-newth table.table tbody:nth-child(9n) td, 
+section.tablebox1-newth table.table tbody:nth-child(10n) td, section.tablebox1-newth table.table tbody:nth-child(11n) td {
+    background: transparent !important;
+}
+
+section.tablebox1-newth table.table tbody:nth-child(6n) tr:hover, section.tablebox1-newth table.table tbody:nth-child(7n) tr:hover, 
+section.tablebox1-newth table.table tbody:nth-child(8n) tr:hover, section.tablebox1-newth table.table tbody:nth-child(9n) tr:hover, 
+section.tablebox1-newth table.table tbody:nth-child(10n) tr:hover,section.tablebox1-newth table.table tbody:nth-child(11n) tr:hover {
     background: #f9f9f9;
 }
 
