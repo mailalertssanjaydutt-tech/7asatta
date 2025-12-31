@@ -1803,7 +1803,13 @@ h4,h6 {
     .octoberresultchart h1 {
         font-size: 15px
     }
-
+	.octoberresultchart h2 {
+    font-size: 15px;
+    color: #000;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
     .ads-container {
         flex-direction: column
     }
