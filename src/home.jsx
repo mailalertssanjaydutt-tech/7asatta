@@ -318,7 +318,7 @@ const UpcomingResults = ({ loadingInitial }) => {
           display: "flex",
           flexDirection: "column",
           maxWidth: "100%",
-          margin: "0.5rem auto",
+          margin: "0.5rem auto 17px",
           backgroundColor: "rgb(255, 255, 255)",
           overflow: "hidden",
           border: 0,
