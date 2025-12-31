@@ -42,7 +42,7 @@ export default function BottomAdsSection() {
               minHeight: 1,
               padding: "1rem 0.5rem",
               border: "dashed red",
-              background: "linear-gradient(#FFC107, #FFFFFF)",
+              background: "linear-gradient(#dbcf2c, #FFFFFF)",
               borderRadius: 20,
               fontWeight: "bold",
               marginTop: 5,
