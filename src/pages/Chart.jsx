@@ -24,7 +24,7 @@ const Chart = () => {
 
   return (
     <>
-      <section className="circlebox">
+      {/*<section className="circlebox">
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
@@ -36,7 +36,7 @@ const Chart = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section>*/}
       <section className="octoberresultchart">
         <div className="container">
           <div className="row">
