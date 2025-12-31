@@ -6,7 +6,12 @@ const Footer = () => {
     <div>
       <>
   <section className="somelinks" style={{ overflow: "hidden" }}>
-    
+    <Link className="yellow-link mx-4" to="/contact">
+        Contact
+    </Link>
+    <Link className="yellow-link mx-4" to="/disclaimer">
+        Disclaimer
+    </Link>
     <Link className="yellow-link mx-4" to="/privacy-policy">
         Privacy Policy
     </Link>
