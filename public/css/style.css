@@ -2634,7 +2634,7 @@ section.somelinks a.yellow-link {
 
 .refButton button {
     background: #2948ee !important;
-    color: #fff;
+    color: #fff !important;
     font-weight: bold;
     border-radius: 40px;
     font-size: 14px;
