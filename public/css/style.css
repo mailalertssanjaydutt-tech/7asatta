@@ -2579,10 +2579,6 @@ section.topboxnew {
     background: #fff;
 }
 
-section.sattalogo {
-    display: none;
-}
-
 section.topboxnew .container-fluid {
     padding: 0 0;
 }
@@ -2604,6 +2600,18 @@ section.circlebox {
 
 section.circlebox2 {
     background: #fff;
+}
+
+section.topboxnew .logo {
+    text-align: center;
+}
+
+section.topboxnew .logo a > img {
+    max-width: 250px;
+}
+
+.topboxnew .text_slide {
+    margin-top: 5px;
 }
 
 @media (max-width:650px) {
