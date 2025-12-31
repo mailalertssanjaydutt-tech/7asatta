@@ -1484,9 +1484,9 @@ a {
 }
 
 .sattalogo {
-    background: #FFC107;
+    background: #dbcf2c;
     padding: 24px 0;
-	background-image: linear-gradient(90deg, rgba(219, 207, 44, 1) 11%, rgba(33, 218, 37, 1) 50%, rgba(219, 207, 44, 1) 88%);
+	/*background-image: linear-gradient(90deg, rgba(219, 207, 44, 1) 11%, rgba(33, 218, 37, 1) 50%, rgba(219, 207, 44, 1) 88%);*/
 }
 
 .sattalogo a {
@@ -1578,10 +1578,10 @@ a {
 }
 
 .wrapper-yellow {
-    background: #FFC107;
+    background: #dbcf2c;
     padding-bottom: 2px!important;
     padding-top: 20px!important;
-	background-image: linear-gradient(90deg, rgba(219, 207, 44, 1) 11%, rgba(33, 218, 37, 1) 50%, rgba(219, 207, 44, 1) 88%);
+	/*background-image: linear-gradient(90deg, rgba(219, 207, 44, 1) 11%, rgba(33, 218, 37, 1) 50%, rgba(219, 207, 44, 1) 88%);*/
 }
 
 .sattadividerr {
@@ -1646,14 +1646,14 @@ a {
 }
 
 .octoberresultchart {
-    background: #ffc107;
+    background: #dbcf2c;
     background: linear-gradient(180deg,#ffc107,#ffe400);
     border-bottom: 1px solid #000;
     border-top: 2px solid #000;
     color: #000;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffc107",endColorstr="#ffe400",GradientType=0);
     padding: 20px 0;
-	background-image: linear-gradient(90deg, rgba(219, 207, 44, 1) 11%, rgba(33, 218, 37, 1) 50%, rgba(219, 207, 44, 1) 88%);
+	/*background-image: linear-gradient(90deg, rgba(219, 207, 44, 1) 11%, rgba(33, 218, 37, 1) 50%, rgba(219, 207, 44, 1) 88%);*/
 }
 
 .octoberresultchart h1 {
@@ -1749,9 +1749,9 @@ a {
 }
 
 .somelinks2 {
-    background: #FFC107;
+    background: #dbcf2c;
     padding: 10px 0;
-	background-image: linear-gradient(90deg, rgba(219, 207, 44, 1) 11%, rgba(33, 218, 37, 1) 50%, rgba(219, 207, 44, 1) 88%);
+	/*background-image: linear-gradient(90deg, rgba(219, 207, 44, 1) 11%, rgba(33, 218, 37, 1) 50%, rgba(219, 207, 44, 1) 88%);*/
 }
 
 .somelinks2 strong {
@@ -2245,12 +2245,12 @@ section.game-detail .header_btn span {
     color: #000;
     border-radius: 50px;
 
-    background-color: #ffc107;
+    background-color: #dbcf2c;
     border: 1px solid #ffc107;
     cursor: pointer;
     
     font-weight: 700;
-	background-image: linear-gradient(90deg, rgba(219, 207, 44, 1) 11%, rgba(33, 218, 37, 1) 50%, rgba(219, 207, 44, 1) 88%);
+	/*background-image: linear-gradient(90deg, rgba(219, 207, 44, 1) 11%, rgba(33, 218, 37, 1) 50%, rgba(219, 207, 44, 1) 88%);*/
 }
 .header_btn:hover{
     padding-right: 20px;
