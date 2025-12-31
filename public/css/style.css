@@ -2620,6 +2620,10 @@ section.topboxnew .logo a > img {
     margin-top: 5px;
 }
 
+section.somelinks a.yellow-link {
+    color: #fff;
+}
+
 @media (max-width:650px) {
 	section.game-detail {
     padding: 0;
