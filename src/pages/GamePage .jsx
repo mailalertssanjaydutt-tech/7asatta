@@ -8,7 +8,6 @@ const cellStyle = {
   textAlign: "center",
   verticalAlign: "middle",
   border: "1px solid #ddd",
-  background: "#dbcf2c",
 };
 
 const stickyHeaderStyle = {
