@@ -335,7 +335,7 @@ const UpcomingResults = ({ loadingInitial }) => {
               minHeight: 1,
               padding: "1.25rem",
               border: "1px dashed red",
-              background: "#FFC107",
+              background: "#dbcf2c",
               borderRadius: 20,
               fontWeight: "bold",
               textAlign: "center",
