@@ -132,7 +132,9 @@ export default function GroupTable({ groupName }) {
                             {game.name}
                           </Link>
                           <br />
-                          <div class="time-btm d-flex"><small>at</small> {game.resultTime12h} <span><Link className="lkn" to="#">Record Chart</Link></span></div>
+                          <div class="time-btm d-flex"><small>at</small> {game.resultTime12h} <span><Link className="lkn" to={`/chart-${new Date().getFullYear()}/${game.name
+                              .toLowerCase()
+                              .replace(/\s+/g, "-")}-satta-king-result`}>Record Chart</Link></span></div>
                      
                         </td>
                         <td className="yesterday-number">
