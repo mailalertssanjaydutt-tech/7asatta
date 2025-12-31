@@ -33,7 +33,7 @@ const Footer = () => {
         <div className="col-md-12 text-center">
           <ul>
             <li
-              style={{ color: "rgb(255, 216, 0)", padding: 0, fontWeight: 700 }}
+              style={{ color: "#ffffff", padding: 0, fontWeight: 700 }}
             >
               !! DISCLAIMER - 7a Satta is a non-commercial informational
               website. Please view this site at your own risk, All The
