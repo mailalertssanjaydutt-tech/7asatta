@@ -15,7 +15,7 @@ const stickyHeaderStyle = {
   position: "sticky",
   left: 0,
   zIndex: 3,
-  background: "#FFC107",
+  background: "#dbcf2c",
 };
 
 const stickyBodyStyle = {
