@@ -2638,6 +2638,15 @@ section.somelinks a.yellow-link {
     font-weight: bold;
     border-radius: 40px;
     font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.refButton .btn > img {
+    max-width: 17px;
+    position: relative;
+    top: -1px;
 }
 
 @media (max-width:650px) {
