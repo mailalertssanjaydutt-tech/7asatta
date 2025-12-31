@@ -248,11 +248,11 @@ const UpcomingResults = ({ loadingInitial }) => {
               minHeight: 1,
               padding: "1.25rem",
               border: "1px dashed red",
-              background: "#FFC107",
+              background: "#dbcf2c",
               borderRadius: 20,
               fontWeight: "bold",
               textAlign: "center",
-			  backgroundImage: "linear-gradient(90deg, rgba(219, 207, 44, 1) 11%, rgba(33, 218, 37, 1) 50%, rgba(219, 207, 44, 1) 88%)",	
+			  	
             }}
           >
             <div><h2><b>आज की पकड़ जोड़ी</b></h2></div>
@@ -285,12 +285,12 @@ const UpcomingResults = ({ loadingInitial }) => {
               minHeight: 1,
               padding: "1.25rem",
               border: "1px dashed red",
-              background: "#FFC107",
+              background: "#dbcf2c",
               borderRadius: 20,
               fontWeight: "bold",
               textAlign: "center",
               textTransform: "uppercase",
-			  backgroundImage: "linear-gradient(90deg, rgba(219, 207, 44, 1) 11%, rgba(33, 218, 37, 1) 50%, rgba(219, 207, 44, 1) 88%)",
+			  
             }}
           >
             <h2><b>मुंडा 01 से 100 नम्बरो तक की राशि/फैमिली</b></h2>
