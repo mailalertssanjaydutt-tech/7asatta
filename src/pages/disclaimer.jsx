@@ -4,7 +4,7 @@ const Disclaimer = () => {
   return (
     <div>
         <section>
-  <div className="octoberresultchart">
+  {/* <div className="octoberresultchart">
     <div className="container">
       <div className="row">
         <div className="col-md-12 text-center">
@@ -163,7 +163,7 @@ const Disclaimer = () => {
       understood, and agree to comply with this Disclaimer and any applicable
       Terms and Conditions or Privacy Policy posted on this Site.
     </p>
-  </div>
+  </div> */}
 </section>
 
     </div>
