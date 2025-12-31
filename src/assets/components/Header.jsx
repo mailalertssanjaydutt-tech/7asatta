@@ -9,7 +9,7 @@ const Header = () => {
     <section className="topboxnew">
         <div className="container-fluid">
         <div className="col-md-16 nopadding">
-            <div className="newnav">
+          {/*<div className="newnav">
             <ul>
                 <li>
                 <Link className="" to="/home">
@@ -33,7 +33,7 @@ const Header = () => {
                 </li>
             </ul>
             <div className="clearfix" />
-            </div>
+            </div> */}
             <div className="text_slide">
             <marquee style={{ color: "#fff" }}>
                 <p style={{ fontSize: 16, textAlign: "center" }}>
@@ -44,7 +44,7 @@ const Header = () => {
         </div>
         </div>
     </section>
-    <section className="sattalogo">
+      {/* <section className="sattalogo">
         <div className="container">
         <div className="row">
             <div className="col-md-12 text-center">
@@ -59,7 +59,7 @@ const Header = () => {
             </div>
         </div>
         </div>
-    </section>
+    </section> */}
     </div>
   )
 }
