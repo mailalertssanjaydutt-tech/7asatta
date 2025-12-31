@@ -339,7 +339,7 @@ const UpcomingResults = ({ loadingInitial }) => {
               borderRadius: 20,
               fontWeight: "bold",
               textAlign: "center",
-			  backgroundImage: "linear-gradient(90deg, rgba(219, 207, 44, 1) 11%, rgba(33, 218, 37, 1) 50%, rgba(219, 207, 44, 1) 88%)",
+			  
             }}
           >
             <h2>
