@@ -1647,7 +1647,7 @@ a {
 
 .octoberresultchart {
     background: #dbcf2c;
-    background: linear-gradient(180deg,#ffc107,#ffe400);
+    /*background: linear-gradient(180deg,#ffc107,#ffe400);*/
     border-bottom: 1px solid #000;
     border-top: 2px solid #000;
     color: #000;
