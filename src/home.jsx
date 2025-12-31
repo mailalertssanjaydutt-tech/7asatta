@@ -155,7 +155,7 @@ const UpcomingResults = ({ loadingInitial }) => {
                   "--"
                 ) : showWaiting ? (
                   <img
-                    src="images/wait.gif"
+                    src="images/wait-img.gif"
                     alt="wait icon"
                     height={50}
                     width={50}
@@ -223,7 +223,7 @@ const UpcomingResults = ({ loadingInitial }) => {
       <LiveGameResult
         gameName="disawar"
         imgArrow="images/arrow.gif"
-        imgWait="images/wait.gif"
+        imgWait="images/wait-img.gif"
       />
 
       <div
