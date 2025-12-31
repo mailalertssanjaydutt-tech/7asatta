@@ -2909,6 +2909,13 @@ section.tablebox1-newth .table td.foryellow .time-btm {
 section.tablebox1-newth .table td.foryellow a.gamenameeach {
     font-size: 16px;
 }
+a.yellow-link.mx-4 {
+    margin: 6px 5px !important;
+    display: inline-block;
+}
 
+section.somelinks {
+    padding: .8rem 0rem;
+}
 }
 
