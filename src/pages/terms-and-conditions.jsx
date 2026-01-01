@@ -3,7 +3,7 @@ import React from 'react'
 const Termsconditions = () => {
   return (
     <div>
-      <section>
+      {/* <section>
   <div className="octoberresultchart">
     <div className="container">
       <div className="row">
@@ -294,10 +294,11 @@ const Termsconditions = () => {
       </p>
     </div>
   </div>
-</section>
+</section> */}
 
     </div>
   )
 }
 
 export default Termsconditions
+
