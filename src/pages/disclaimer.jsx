@@ -3,7 +3,7 @@ import React from 'react'
 const Disclaimer = () => {
   return (
     <div>
-        <section>
+        {/* <section>
   <div className="octoberresultchart">
     <div className="container">
       <div className="row">
@@ -164,10 +164,11 @@ const Disclaimer = () => {
       Terms and Conditions or Privacy Policy posted on this Site.
     </p>
   </div>
-</section>
+</section> */}
 
     </div>
   )
 }
 
 export default Disclaimer
+
