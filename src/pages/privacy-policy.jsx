@@ -3,7 +3,7 @@ import React from 'react'
 const Privacypolicy = () => {
   return (
     <div>
-      <section>
+      {/* <section>
   <div className="octoberresultchart">
     <div className="container">
       <div className="row">
@@ -228,10 +228,11 @@ const Privacypolicy = () => {
       understood this Privacy Policy and agree to its terms.
     </p>
   </div>
-</section>
+</section> */}
 
     </div>
   )
 }
 
 export default Privacypolicy
+
