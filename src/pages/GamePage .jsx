@@ -27,48 +27,56 @@ const stickyBodyStyle = {
 };
 
 const GamePage = () => {
-  const { gameSlug, year } = useParams();
-  // Remove the trailing '-satta-result' if present, then convert dashes to spaces
+  const params = useParams();
+  let { year } = params;
+  let gameSlug = params.gameSlug;
+
+  if (!year && params.chartYear && params.chartYear.startsWith("chart-")) {
+    const maybeYear = params.chartYear.replace("chart-", "");
+    if (/^\d{4}$/.test(maybeYear)) {
+      year = maybeYear;
+    }
+  }
+
+  if (!gameSlug && params["*"]) {
+    gameSlug = params["*"].split("/")[0];
+    console.warn("GamePage: derived gameSlug from splat:", gameSlug);
+  }
+
   const nameSlug = gameSlug ? gameSlug.replace(/-satta-king-result$/, "") : "";
   const decodedName = nameSlug.replace(/-/g, " ");
-  // Use year param if present, otherwise default to current year
+
   const yearToUse = year ? Number(year) : new Date().getFullYear();
 
   const [chartData, setChartData] = useState({});
   const [loading, setLoading] = useState(true);
 
   const months = [
-    "JAN",
-    "FEB",
-    "MAR",
-    "APR",
-    "MAY",
-    "JUN",
-    "JUL",
-    "AUG",
-    "SEP",
-    "OCT",
-    "NOV",
-    "DEC",
+    "JAN","FEB","MAR","APR","MAY","JUN",
+    "JUL","AUG","SEP","OCT","NOV","DEC",
   ];
 
   useEffect(() => {
+    setLoading(true);
+
     const fetchChart = async () => {
       try {
-        const res = await api.get(`/charts/yearly/${decodedName}?year=${yearToUse}`);
-        setChartData(res.data.data);
+        const res = await api.get(
+          `/charts/yearly/${decodedName}?year=${yearToUse}`
+        );
+        setChartData(res.data?.data || {});
       } catch (err) {
         console.error("Failed to fetch chart data:", err);
       } finally {
         setLoading(false);
       }
     };
+
     fetchChart();
-  }, [decodedName]);
+  }, [decodedName, yearToUse]);
 
   const getDaysInMonth = (monthIndex) => {
-    const year = new Date().getFullYear();
-    return new Date(year, monthIndex + 1, 0).getDate();
+    return new Date(yearToUse, monthIndex + 1, 0).getDate();
   };
 
   if (loading) return <div>Loading chart...</div>;
@@ -78,7 +86,7 @@ const GamePage = () => {
       <section className="octoberresultchart">
         <div className="container text-center">
           <h1>
-            {decodedName.toUpperCase()} YEARLY CHART {new Date().getFullYear()}
+            {decodedName.toUpperCase()} YEARLY CHART {yearToUse}
           </h1>
         </div>
       </section>
@@ -103,7 +111,7 @@ const GamePage = () => {
                 color: "#000",
               }}
             >
-              <th style={stickyHeaderStyle}>{new Date().getFullYear()}</th>
+              <th style={stickyHeaderStyle}>{yearToUse}</th>
               {months.map((month, idx) => (
                 <th key={idx} style={cellStyle}>
                   {month}
@@ -111,16 +119,19 @@ const GamePage = () => {
               ))}
             </tr>
           </thead>
+
           <tbody>
             {Array.from({ length: 31 }, (_, i) => (
               <tr key={i}>
                 <th style={stickyBodyStyle} className="bluetext forfirtcolor">
                   {i + 1}
                 </th>
+
                 {months.map((month, mIdx) => {
                   const daysInMonth = getDaysInMonth(mIdx);
                   const value =
                     i < daysInMonth ? chartData[month]?.[i] ?? "-" : "";
+
                   return (
                     <th key={mIdx} style={cellStyle}>
                       <span style={{ color: value === "-" ? "#999" : "#000" }}>
