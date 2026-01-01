@@ -419,7 +419,7 @@ const UpcomingResults = ({ loadingInitial }) => {
       </section>
       <MonthlyGroupTable groupName="gr1" />
       <MonthlyGroupTable groupName="gr2" />
-      <section className="game-detail">
+      {/* <section className="game-detail">
         <div className="containers">
           <div className="rowr">
             <div className="col-left">
@@ -448,9 +448,6 @@ const UpcomingResults = ({ loadingInitial }) => {
                   usually means betting or gambling and <b>“King”</b> is the
                   term which refers to the person who gets triumph in a match.
                 </p>
-
-                {/* ... the rest remains unchanged ... */}
-
                 <Readmore>
                   <p>
                     Satta King has its roots in the older systems of lotteries,
@@ -660,10 +657,11 @@ const UpcomingResults = ({ loadingInitial }) => {
         </div>
       </section>
 
-      <FAQ />
+      <FAQ /> */}
     </div>
   );
 };
 
 export default Home;
+
 
