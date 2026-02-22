@@ -419,7 +419,7 @@ const UpcomingResults = ({ loadingInitial }) => {
       </section>
       <MonthlyGroupTable groupName="gr1" />
       <MonthlyGroupTable groupName="gr2" />
-		{/*<section className="game-detail">
+		<section className="game-detail">
         <div className="containers">
           <div className="rowr">
             <div className="col-left">
@@ -457,199 +457,96 @@ const UpcomingResults = ({ loadingInitial }) => {
                     screen and from modest starting bets.
                   </p>
 
-                  <h2>The Historical Background of Satta King</h2>
+                  
+<p>The best part about this game is that you can start with a small amount like ₹10 or ₹50. These days, many people play through apps or local agents. If the number that you picked is matched, you could win many multiples of your original bet.</p>
+<p>But it's ALL luck. Losing and gaining both luck their share of the outcomes, which is why its always wise to use money wisely and responsibly.</p>
 
-                  <p>
-                    SattaKing game started in the middle of 20th century. It
-                    derived from a game called <b>“Matka,”</b> originating back
-                    in the times when people would place money on the
-                    opening/closing rate of cotton, which was then transmitted
-                    to the Bombay Cotton exchange from New York. The game was
-                    brought to India where it developed into various regional
-                    forms. Matka gained widespread popularity in cities such as
-                    approximately Mumbai and Delhi.{" "}
-                  </p>
+<h2>Satta King's Historical Background</h2>
+<p>The gambling practice satta matka, which originated in the 1950s (beyond a time when India was becoming independent), came into existence after independence. It was originally known as ankada jugar (figures gambling). This consisted of wagering on the opening and closing rates of cotton as published by the New York Cotton Exchange, which were sent to him through teleprinters from the Bombay Cotton Exchange.</p>
 
-                  <p>
-                    Matka gambling was the game at first, but when it was
-                    banned, people continued playing this kind of gambling which
-                    has evolved to ‘Satta’ King today. The game eventually
-                    spread to other cities and became associated with different
-                    markets (or “bazaars”), each with its own timing and winning
-                    numbers.
-                  </p>
+<p>This system continued as it was from 1950 to 1960. But by 1961 the New York Cotton Exchange had 'abolished' these rates. So they started looking for an alternative.</p>
+<p>They subsequently modernized the practice by using slips of paper (parchis) and a pot or pitcher (matka) to draw the numbers. This was became popular which called it satta king. Results started being updated daily.</p>
 
-                  <p>
-                    Satta King receives widespread participation despite legal
-                    limitations, with players anxiously anticipating the results
-                    of daily draws that reveal winners. The game has since
-                    migrated in many places to the internet, which explains why
-                    you get results or other way of playing quicker than before.
-                  </p>
+<p>In every city or village, players would seek a local khaiwal (bookie) who accumulated the slips and wrote the results on cement poles since everything was underground in India.</p>
 
-                  <h2>How to Play Satta King?</h2>
-                  <p>
-                    Satta King is so simple to play, however you should be quite
-                    careful also. Here’s a simplified explanation:
-                  </p>
+<p>Even today, satta lottery is not legal in most of India.</p>
 
-                  <h3>Choosing Numbers</h3>
-                  <p>
-                    Participants choose a number from 0 to 99. These numbers can
-                    also be selected, subsequently, individually but are usually
-                    taken in pairs (Jodi), triples ("Panna") or as back and
-                    close pair. There are various kinds of bet with different
-                    payout rates and odds.
-                  </p>
+<p>The word ‘Satta‘ is quite popular and the game is widely played in India, but it is illegal under Indian law.</p>
 
-                  <h3>Placing Bets</h3>
-                  <p>
-                    How to play Players can bet on numbers via operators or
-                    their agents, or by using online apps. Lakhani said the
-                    amount bet is small— 10 or 50, “but one wins many times the
-                    money if it comes through.
-                  </p>
 
-                  <h3>Declaring Results</h3>
-                  <p>
-                    Every Satta market have daily or weekly draws where they
-                    open a number and get declared winner. Results are declared
-                    at fixed times—Delhi Bazar at a particular hour, Disawar and
-                    Faridabad also at different hours.
-                  </p>
+<h2>How to Play Satta King: A Comprehensive Step by Step Guide</h2>
+<p>The game of Satta King: It isn’t easy to play the Satta king game once again after then your mind is powerful. Here's a safe, beginner-friendly breakdown:</p>
+<h3>Choose Your Numbers</h3>
+<p>Pick any number between 00 and 99. For more complex plays, opt for “Panna” (any three digits, as in 121), “Jodi” pairings or “Tira” sets. There are varying odds to every type – on singles it can be fairly simplistic, more a lines prize thing for Pannas.</p>
+<h3>Place Your Bet</h3>
+<p>Make outside bets online through reputable apps, sites or agents. Actual stakes: ₹100, or play with ₹1000 to get a bit more bold. All of that’s easy on digital 
+platforms — deposit money, pick an etf market and confirm.</p>
+<h3>Await the Results</h3>
+<p>Every market has fixed timings. Results fall off daily or weekly, posted for all to see. For example, Disawar results may be declared at midnight and the result of Delhi Bazaar will only come in the morning.</p>
+<h3>Claim Your Winnings</h3>
+<p>Match the drawn number? Congratulations! Payouts vary from 90x your bet for straight wins up to or over 960x for clever moves like full Pannas. Trusted sites credit wins immediately.</p>
+<p>Pro Tip: Make sure to check market timings to avoid missing out. You’ll be able to identify trends with enough practice, but the fates favour luck.
+What is Jodi, Crossing, Haruf in Satta King?</p>
 
-                  <h3>Winning and Payouts</h3>
-                  <p>
-                    If the player’s selected number corresponds to the winning
-                    number announced for that draw, then the player wins.
-                    Payouts may be between 90 –960 times the value of the
-                    original bet or more, depending on both the type of bet and
-                    market.
-                  </p>
+<h3>Jodi</h3>
+<p>The numbers 01 to 100 are known as jodi. You can select your own favorite lucky number and bet on it.</p>
+<p>Example: 11, 22, 33, 44, 55, 66, 77, 88,99 ,00 are Jodi.</p>
+<p>The numbers 1 through 10 are called munda.</p>
+<p>11-100 are known as jodi.</p>
+<p>Some numbers, such as between 11 and 100, are also known as joda.</p>
 
-                  <h3>Popular Satta King Markets</h3>
-                  <p>
-                    Satta King isn’t just one game but a lot of betting markets
-                    found in the Indian subcontinent. Every market will have
-                    unique draws and times, along with its own rules and
-                    results. Here are some of the most popular markets:
-                  </p>
+<h3>Crossing</h3>
+<p>Many players also play crossing. Crossing is constructed with three numbers and you can play around 3 to 8–9 numbers.</p>
 
-                  <p>
-                    <b>Delhi Bazar Satta:</b> Among the oldest and most famous
-                    markets, which has daily draw2.
-                  </p>
-                  <p>
-                    <b>Disawar Satta:</b> It is famous for high popularity among
-                    the players and daily draws.
-                  </p>
-                  <p>
-                    <b>Faridabad Satta:</b> New market that is gaining
-                    popularity.
-                  </p>
-                  <p>
-                    <b>Ghaziabad Satta:</b> Well known for frequent updates and
-                    player engagement.
-                  </p>
-                  <p>
-                    <b>Gali Satta Market:</b> A market known for its different
-                    draw time.
-                  </p>
-                  <p>
-                    There is a separate website or portal for each market, where
-                    players can go see the results, and players also use apps or
-                    websites like 7A Satta to get real-time updates.
-                  </p>
+<p>Example: 123456 is a "6-number crossing".</p>
+<p>In this, 36 jodi are formed.</p>
+<p>If you say jodi cut, then 6 are out of jodi means there r 30 jodi left.</p>
 
-                  <h3>Understanding the Risks and Cautions</h3>
-                  <p>
-                    Satta King can be fun and rewarding, but it also comes with
-                    a lot of risk:
-                  </p>
-                  <p>
-                    <b>Economic risk:</b>a The higher risk players will lose
-                    money as the house always has an edge against the gambler.
-                    The amount you can lose should be your bottom line when
-                    gambling.
-                  </p>
-                  <p>
-                    <b>Addiction:</b> The speed of the game and potential for
-                    high rewards can create a cycle of compulsive gambling.
-                  </p>
-                  <p>
-                    <b>Legal FAQs:</b> Satta King is not a legal lottery system
-                    or gambling option in most Indian states and playing it or
-                    betting on it can have serious legal impacts as well.
-                  </p>
-                  <p>
-                    <b>Trust Issues:</b> The game is mainly run underground or
-                    unofficially, players need to watch out for scam sites and
-                    fraud operators.
-                  </p>
-                  <p>
-                    At 7A Satta, we offer the counsel of verified fruits and
-                    teachings; we do not support issue nor do get to tell that
-                    you to issues.
-                  </p>
+<h3>Haruf</h3>
+<p>In his voice breaks and in bed, Haruf speaks of one number only.</p>
+<p>Example: 1 is a haruf.</p>
+<p>If you play it, 10 jodi will be made.</p>
+<p>You also need to state whether it is Ander (inside) or Bahar (outside) before you begin.</p>
+<p>If you play side A only 10 jodi are created.</p>
+<p>If you double play through front or back side AB then twenty jodi are made.</p>
+<p>If you haruf, your chances of getting through are higher.</p>
 
-                  <h3>Role of Platforms Like 7A Satta</h3>
-                  <p>Platforms like 7A Satta are important because they:</p>
-                  <p>
-                    <b>Verified Results:</b> Fast, instant publishing of lottery
-                    draw results to reduce misinformation.
-                  </p>
-                  <p>
-                    <b>Historical Data:</b> The Secret Powerball Technique also
-                    give players access to the archived winning numbers from
-                    previous drawings, and charts that allow them see the
-                    winning patterns.
-                  </p>
-                  <p>
-                    <b>Real-time Push Alerts:</b> You will never miss a single
-                    point, game or set in tennis; now it is up to you!
-                  </p>
-                  <p>
-                    <b>Player Education:</b> Providing tips, strategies and
-                    responsible gaming information so players can make informed
-                    decisions.
-                  </p>
-                  <p>
-                    <b>Privacy and Security Assured:</b> All user data is kept
-                    confidential and protected from abuse.
-                  </p>
+<h2>The Most Essential Satta King Markets Reveal Below must know</h2>
+<p>VARIETY is the spice for Satta King and markets looks so regional centre of power. Each has its own groove, timing and community of regulars. Here are some that we found most interesting:</p>
+<p>Delhi Bazaar Satta: The veteran’s favourite, providing daily results that keep the Delhi gaming scene vibrant.</p>
+<p>Disawar Satta: A midnight risk for the high rollers, famous for attracting a large number of players and its strong live draws.</p>
+<p>Faridabad Satta: A rising star with a new face and trends chasing perfect for beginners.</p>
+<p>Ghaziabad Satta: Interactive and vibey with the real time offer.</p>
+<p>Gali Satta: Out of nowhere and at unlikely hours, its draw is seducing night-owls across the country.</p>
+<p>For live results, you can check dedicated websites and apps such as A7 Satta. Those markets are the engine that drives Satta King’s social impact: the online communities they build, in which players share tips and celebrate wins.</p>
 
-                  <h3>Tips for Responsible Engagement</h3>
-                  <p>
-                    Stick to an amount that you are willing to wager and never
-                    go beyond it.
-                  </p>
-                  <p>Never play to win back what you have lost.</p>
-                  <p>
-                    Occasional breaks: It doesn't hurt to step away from the
-                    game.
-                  </p>
-                  <p>— Get help for gambling addiction if you suspect it.</p>
-                  <p>
-                    Know and respect the laws of your area with regards to
-                    gambling.
-                  </p>
+<h2>The Risks: Play Smart, Not Safe</h2>
+<p>Satta King is a thrill — and it’s not without shadows. It's important to be aware so we can learn how to partake responsibly.</p>
+<p>Financial Risk: No, but the deck is stacked against you. Only bet what you can afford to lose – gambling is supposed to be fun, not lucrative.</p>
+<p>Addiction Potential: Quick draws and large-win fantasies are addictive. Set limits to keep it fun.</p>
+<p>Legal Gray Areas: It is prohibited in much of India and carries penalties. Stay informed on local laws.</p>
+<p>Scam Alerts: Underground ops breed fraud. Resist the fakes by sticking with established sites.</p>
+<p>We inform not promote – knowledge is power for taking safer decisions.</p>
 
-                  <h3>Conclusion</h3>
-                  <p>
-                    Satta king is still a game of luck for the people across
-                    India. It may be entertaining and have the potential for
-                    monetary rewards but it should always be played responsibly,
-                    informed, and with a level head. ABOUT US 7A Satta is run
-                    and managed by the best satta company in India, with an
-                    experience of 40 long years.
-                  </p>
+<h2>Platforms like A7 Satta's Function</h2>
+<p>A7 Satta is among the oldest and most reliable market for “Satta Matka” results on internet. Created for the purpose of getting information out there quickly, accurately and honestly, our website sees thousands of daily users counted on to keep them informed. We are dedicated to the Satta King category publishing superfast all Satta King games results on our website, and providing you with accurate results and updates very quickly in no time at https://www.7asatta.com.</p>
+<p>Here on our platform, we have a list of multiple games including top markets such as Delhi Bazaar, Disawar, Gali, Ajmer Sarif, Ghaziabad and Shree Ganesh and also there are regional games such as Golden City, Navi Mumbai, Sadar Bazaar, Cyber City Gurgaon, Paisa Bazaar along with many more. Every result comes with thorough record, making it possible to see the past results and be a better prediction.</p>
+<p>Apart from results, A7 Satta provides “Pakad Jodi” numbers, Rashi charts and expert advice shared by seasoned players. These community capabilities let users learn from trends and enhance their strategies. And the most important thing, we don't organize and encourage gambling in any way - but serve as some information platform for those who wants to. A7 Satta was and still is home to dependable, user‑friendly Satta King results.</p>
 
-                  <p>
-                    And let’s be clear – gambling should not be your plan A in
-                    terms of income or investment. Remember to always play
-                    responsibly, be in the know and come for updates on Satta
-                    King at reliable sources.
-                  </p>
+</h2>The A7 Satta Edge - How We Stay On Top of The Market</h2>
+<p>In the fast moving world of sattaplay A7 Satta is the king of sattaplay!!</p>
+<p>Ultra-Fast Live Results: Satta is all about timing. A7 Satta provides live results, so no need to search for other places and you will get all result at one place.</p>
+<p>Easy Record Charts: A7 Satta provides record charts of satta king games that allow you to perceive the game tricks before-time, guess next number and eliminate any chances of loss.</p>
+<p>User-Friendly Interface: With an easy-to-use interface, both seasoned and beginners can find their way around the platform to view results, chart invites as well as updates.</p>
+<p>Reliability & Accuracy: where many websites are not very reliable, A7 Satta would always try to be a clear winner OMG every day.</p>
+<p>Security & Privacy: With strong security layers, A7 Satta offers privacy to users while they check out the results in privacy.</p>
+<p>A7 Satta is not like just other site, it's es a market leader in the world of A7 satta matka.</p>
+
+<h2>Strategy & Predictions: Win with smarts</h2>
+<p>At A7 Satta, we turn out to be supportive of our users by providing all the information they need to make informed bets. More than numbers, we offer insights.</p>
+<p>Expert Pakad Jodi: Get premium "Pakad Jodi" posts from experienced punters. These authorities rely on long years of experience and ancient record charts to decide winning combinations.</p>
+<p>Rashi & Family Charts (1–100): Use our charts based on Rashi. [related] With family numbers, Rashi patterns and other such phenomena, you can train yourself in divining forecasts.</p>
+<p>Improved Likelihood of Winning: Our data-driven approach helps you be the best at fantasy and increase your odds of success.</p>
                 </Readmore>
               </div>
             </div>
@@ -663,6 +560,7 @@ const UpcomingResults = ({ loadingInitial }) => {
 };
 
 export default Home;
+
 
 
 
