@@ -419,7 +419,7 @@ const UpcomingResults = ({ loadingInitial }) => {
       </section>
       <MonthlyGroupTable groupName="gr1" />
       <MonthlyGroupTable groupName="gr2" />
-      {/* <section className="game-detail">
+       <section className="game-detail">
         <div className="containers">
           <div className="rowr">
             <div className="col-left">
@@ -657,12 +657,13 @@ const UpcomingResults = ({ loadingInitial }) => {
         </div>
       </section>
 
-      <FAQ /> */}
+      <FAQ /> 
     </div>
   );
 };
 
 export default Home;
+
 
 
 
