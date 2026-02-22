@@ -1883,7 +1883,6 @@ th.bluetext {
   padding: 20px 80px 20px 20px;
   position: relative;
   display: flex;
-  align-items: center;
   cursor: pointer;
 }
 
@@ -2669,5 +2668,6 @@ div.lucky-number-section .card-body.munda .swiper-wrapper {
 		}
 
 }
+
 
 
