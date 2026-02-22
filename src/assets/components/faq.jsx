@@ -23,7 +23,8 @@ export default function FAQ() {
                 className={`question ${activeIndex === 0 ? "active" : ""}`}
                 onClick={() => toggleFAQ(0)}
               >
-                <span className="sr">01.</span> What is Satta King and who started it?
+                <span className="sr">01.</span> What is Satta King and who created it?
+
               </div>
               <div
                 className="answercont"
@@ -34,8 +35,7 @@ export default function FAQ() {
                 }}
               >
                 <div className="answer">
-                  Satta King is a kind of lottery game based on numbers from 00 to 99 which comes under <b>"Gambling"</b>. The real name of this game in Satta Matka, in which 
-				  <b>"Satta"</b> means betting or gambling and <b>"Matka"</b> means a pot through which a number is drawn out. Over the decades, after official bans, it grew —disjointedly and very slowly — into Satta, a lottery-like game in which players bet on whether they can pick the correct numbers. Some mental bankettage explains why it cuts across India in distinct regional markets like Delhi, Disawar and Galion, each with its own legacy and timings.
+                  Satta King is the name of a kind of lottery game, and which comes under "Gambling. The game is actually known as Satta Matka — a form of gambling where a number is chosen from a pot. State-banned, it developed haphazardly over decades into Satta, a lottery-style game where players attempt to guess the correct numbers. Delhi, Disawar, Gali, and other regional markets are divided by this patchwork, each with its own seasons and histories, some of which can be explained in terms of mental banking.
                 </div>
               </div>
             </div>
@@ -46,7 +46,7 @@ export default function FAQ() {
                 className={`question ${activeIndex === 1 ? "active" : ""}`}
                 onClick={() => toggleFAQ(1)}
               >
-                <span className="sr">02.</span> What is the significance of 7A Satta in the Satta King world?
+                <span className="sr">02.</span> In the Satta King game, who is A7 Satta?
               </div>
               <div
                 className="answercont"
@@ -57,7 +57,8 @@ export default function FAQ() {
                 }}
               >
                 <div className="answer">
-                  7A Satta is one of the best websites that offers verified Satta King results, historical charts, betting tips and a safe and private gambling services. It supports players through the publication of immediate results, new draw alerts, responsible gaming education and user data privacy. It’s old-established image appeals to both new and experienced gamblers aiming for a site that can offer them clear transparency.
+                  One of the greatest websites for real Satta King results, records charts, online wagers, and secure Satta betting locations is A7 Satta. It offers services and assistance to players, including user data protection, new draw alerts, safe gaming guidelines, and real-time results, among other things. Both novice and seasoned gamblers looking for a website they can rely on to provide openness are drawn to its strong reputation.
+
                 </div>
               </div>
             </div>
@@ -68,7 +69,7 @@ export default function FAQ() {
                 className={`question ${activeIndex === 2 ? "active" : ""}`}
                 onClick={() => toggleFAQ(2)}
               >
-                <span className="sr">03.</span> How to play Satta King with 7A Satta?
+                <span className="sr">03.</span> How can I use A7 Satta to play the Satta King?
               </div>
               <div
                 className="answercont"
@@ -79,7 +80,7 @@ export default function FAQ() {
                 }}
               >
                 <div className="answer">
-To play, players sign up at 7A Satta or its apps, choose a market, choose a number from 00 to 99 and bet as per bet type variations (single, Jodi or Panna). If the selected figure hits after a draw and it's matches with the result called on that market.
+In order to participate, a player must first create an account on the A7 Satta app or website, select a market, pick a number between 00 and 99, and then place bets on a variety of bet kinds (including Single, Jodi, and Panna). if the chosen sum is the same as what was declared on those markets and lands following the draw.
                 </div>
               </div>
             </div>
@@ -90,7 +91,7 @@ To play, players sign up at 7A Satta or its apps, choose a market, choose a numb
                 className={`question ${activeIndex === 3 ? "active" : ""}`}
                 onClick={() => toggleFAQ(3)}
               >
-                <span className="sr">04.</span> What are Satta King bets and their main payout ratios?
+                <span className="sr">04.</span> What are Satta King's primary payment rates?
               </div>
               <div
                 className="answercont"
@@ -101,12 +102,16 @@ To play, players sign up at 7A Satta or its apps, choose a market, choose a numb
                 }}
               >
                 <div className="answer">
-					Common bet types include:<br/>
+					Common types of bets include:
+<br/>
 				
-                <b>Ank:</b> Single:  bet to wager on any single digit between 0 and 9. <br/>
-				<b>Jodi (Pair):</b> a wager on two high or low digits (00–99); usually has the highest pay-out.<br/>
-				<b>Panna (Treble):</b> Bet on 3-digit combinations.<br/>
-				There are side bets and varied pay tables but these are the most popular. Payouts depend on the bet and market, but can be between 90 and 960 times the amount bet.
+                Ank (Single): Place a wager on a single digit from 0 to 9.
+ <br/>
+				Jodi (Pair): A bet with two digits high or low (00-99) is called a pair, and it is even most frequently employed for a favourable reward.
+<br/>
+				Panna (Treble): Place a wager on three-digit multiple figures.
+<br/>
+				Although there are pay tables and side bets, I've only included the most well-liked ones here. Max payouts could go from 90 to 960 times the wager per market and prediction.
                 </div>
               </div>
             </div>
@@ -117,7 +122,7 @@ To play, players sign up at 7A Satta or its apps, choose a market, choose a numb
                 className={`question ${activeIndex === 4 ? "active" : ""}`}
                 onClick={() => toggleFAQ(4)}
               >
-                <span className="sr">05.</span> How can a player check the results to keep up with Satta King markets?
+                <span className="sr">05.</span> How to track Satta result as a player of Satta King? How one can be updated with any news related to Satta king bazaar?
 
               </div>
               <div
@@ -129,7 +134,8 @@ To play, players sign up at 7A Satta or its apps, choose a market, choose a numb
                 }}
               >
                 <div className="answer">
-                  7A Satta earlier announced official draw results on its website and push notifications immediately. Each market has an online results portal and specific timing as well. Results and patterns are archived as well, that players can check to decide their next bet on but they should make use of credible sources in order not to get deceived by scams.
+                  A7 Satta instantly sponsored push alerts and posted the official draw results on their website. Every market will have its own online results page and timestamp. In order to prevent being duped, gamblers should choose news from reliable sources, even though they can utilise algorithms and historical results to choose their wager.
+
                 </div>
               </div>
             </div>
@@ -139,8 +145,7 @@ To play, players sign up at 7A Satta or its apps, choose a market, choose a numb
                 className={`question ${activeIndex === 5 ? "active" : ""}`}
                 onClick={() => toggleFAQ(5)}
               >
-                <span className="sr">06.</span> What are the Satta King India Laws and regulations?
-
+                <span className="sr">06.</span> What are the regulations of Satta King India?
               </div>
               <div
                 className="answercont"
@@ -151,7 +156,8 @@ To play, players sign up at 7A Satta or its apps, choose a market, choose a numb
                 }}
               >
                 <div className="answer">
-                  In most of the Indian states, which don’t host lotto, Satta King is considered illegal and a punishable criminal offense. Engaging in or aiding Satta betting, except by authorized agency or lotteries, can lead to penalization and imprisonment. Online Satta is risky, but it’s nevertheless widely available through the law gray—[subscribers/users] must personally check local laws for legality before playing.
+                  It is considered illegal and a crime in states that have banished the lottery. If the betting is on an organisation or a person despite being aware of their nature, chances of getting fined are ruled out as it would rather be considered illegal. Although the act of playing Satta online is considered illegal in India, according to some arbitrary law, individuals participating in the game are not subject to legal consequences; however, users should consult their local laws and regulations on Satta gambling or betting since Satta may be banned there.
+
 
                 </div>
               </div>
@@ -162,7 +168,7 @@ To play, players sign up at 7A Satta or its apps, choose a market, choose a numb
                 className={`question ${activeIndex === 6 ? "active" : ""}`}
                 onClick={() => toggleFAQ(6)}
               >
-                <span className="sr">07.</span> What are the dangers of playing Satta King online and offline?
+                <span className="sr">07.</span> What risks come with playing Satta King offline versus online?
 
               </div>
               <div
@@ -175,10 +181,10 @@ To play, players sign up at 7A Satta or its apps, choose a market, choose a numb
               >
                 <div className="answer">
                   Key risks include:<br/>
-					<b>Financial losses:</b> House odds are heavy.<br/>
-					<b>Addiction:</b> High-speed, high-reward gaming may contribute to gambling addiction.<br/>
-					<b>Liability:</b> Unregulated gambling is illegal.<br/>
-					<b>Cybersecurity or fraud:</b> Some websites are fake, without guaranteed payouts and protection of data. People must be sure of safety and privacy when it comes to playing on platforms such as 7A Satta.
+					Loss of money: The house has a good chance.<br/>
+					Addiction: Quick games with big payouts have the potential to exacerbate gambling addiction.<br/>
+Liability: It is against the law to gamble indefinitely.<br/>
+Cybersecurity or fake: Other websites show up on scam websites, and they don't guarantee the security of the data or the funds. When playing at locations like A7 Satta, people need to have faith in their safety and privacy.
                 </div>
               </div>
             </div>
@@ -188,7 +194,7 @@ To play, players sign up at 7A Satta or its apps, choose a market, choose a numb
                 className={`question ${activeIndex === 7 ? "active" : ""}`}
                 onClick={() => toggleFAQ(7)}
               >
-                <span className="sr">08.</span> Are there any winning tricks for Satta King?
+                <span className="sr">08.</span> What are some strategies for winning Satta King?
 
               </div>
               <div
@@ -200,9 +206,7 @@ To play, players sign up at 7A Satta or its apps, choose a market, choose a numb
                 }}
               >
                 <div className="answer">                  
-There are no fail-safe systems for wins since the result is random, players however rely on historical charts and past results tracking (such as the one shared by 7A Satta of 
-<b>‘Secret Powerball Technique’</b>) to identify a pattern. These tricks may make betting more entertaining, but nothings affects the odds. Gwsportal offers a few important guidelines stressed by seasoned platforms on responsible betting, not chasing losses and playing for fun and not an income.
-
+Although no method is infallible, players attempt to predict patterns of the numbers that will be drawn by using historical charts and trends in previous outcomes tracking that A7 Satta of the "Secret Powerball Technique" gives. These methods don't change the odds, but they can make your betting more enjoyable. Leading suppliers emphasise avoiding losses and gambling for enjoyment over profit, two important pointers that Gasportal provides for those who place ethical bets.
                 </div>
               </div>
             </div>
@@ -212,7 +216,7 @@ There are no fail-safe systems for wins since the result is random, players howe
                 className={`question ${activeIndex === 8 ? "active" : ""}`}
                 onClick={() => toggleFAQ(8)}
               >
-                <span className="sr">09.</span> How does 7A Satta protect user safety, privacy and ensure responsible gaming?
+                <span className="sr">09.</span> How A7 Satta Ensure The User Safety and Ethical Gaming?
 
               </div>
               <div
@@ -224,7 +228,7 @@ There are no fail-safe systems for wins since the result is random, players howe
                 }}
               >
                 <div className="answer">                  
-7A Satta user security first: encryption technology for the discreet verification of registered users and confidential treatment of personal data. On a regular basis, the platform shares advice about setting limits, identifying risk signals, taking breaks and seeking help if there is potential for gambling addiction. They also provide legal risk training and links to support services if required.
+A7 Satta focus on protecting the privacy of our users by enabling the encryption where it is needed to keep their personal information confidential and while verifying them in a more concealed manner. Such advice as establishing limits, identifying signs of risk, taking breaks and seeking assistance if a gambling problem is suspected are commonly provided on the site. They also can provide legal risk education and, if needed, point people to armed forces support services.
 
                 </div>
               </div>
@@ -235,7 +239,7 @@ There are no fail-safe systems for wins since the result is random, players howe
                 className={`question ${activeIndex === 9 ? "active" : ""}`}
                 onClick={() => toggleFAQ(9)}
               >
-                <span className="sr">10.</span> What distinguishes 7A Satta's business partners, like 7A Satta and 7A Satta?
+                <span className="sr">10.</span> How different is A7 Satta compared to other business partners like A1 Satta, A2 Satta, A3 Satta, A4 Satta,,A7 satt etc and B7 satt and Lucky satt?
 
               </div>
               <div
@@ -247,7 +251,8 @@ There are no fail-safe systems for wins since the result is random, players howe
                 }}
               >
                 <div className="answer">                  
-7A Satta and 7A Satta are part of a reliable smart betting business model exchanging verified results, data analytics and player support with 7A Satta. Between them, they provide access to several markets, improve the transparency of draw results and promote a community who engage in responsible betting. Their joining of forces extends trust across platforms enabling the access to a larger market and an even bigger playerbase.
+A1 Satta, A2 Satta, A3 Satta, A4 Satta, A7 Satta, A8 Satta Now since Lucky Satta are mentioned in the betting model their verifications results analysis and player support is shared with you by them. Together they offer a variety of markets, and help to make draw results more transparent, and promote responsible betting behavior. Tipping together, they create cross-platform trust that creates new opportunities and rivals.
+
 
                 </div>
               </div>
@@ -261,4 +266,5 @@ There are no fail-safe systems for wins since the result is random, players howe
     </section>
   );
 }
+
 
