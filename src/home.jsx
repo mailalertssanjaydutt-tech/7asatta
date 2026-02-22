@@ -479,7 +479,7 @@ const UpcomingResults = ({ loadingInitial }) => {
 
 <p><strong>Pro Tip:</strong> Always check market timings to avoid missing results. Remember, outcomes are based on luck.</p>
 
-<h3>What is Jodi, Crossing, Haruf in Satta King?</h3>
+<h2>What is Jodi, Crossing, Haruf in Satta King?</h2>
 
 <h3>Jodi</h3>
 <p>Numbers from 00 to 99 are known as Jodi. You can select your favorite lucky number and bet on it.</p>
@@ -547,6 +547,7 @@ const UpcomingResults = ({ loadingInitial }) => {
 };
 
 export default Home;
+
 
 
 
